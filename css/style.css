@@ -440,6 +440,22 @@ footer .footer_txt02 .copyright{
   text-align: right;
   margin-right: 2.5vw;
 }
+.top-shortcuts {
+  width: 50px;
+  height: 50px;
+  line-height: 47px;
+  background-color: #0066cc;
+  box-sizing: border-box;
+  border-radius: 12px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  text-align: center;
+  border: 0px;
+}
+.top-shortcuts img{
+  width: 45%;
+}
 
 @media screen and (max-width: 1500px){
   html{font-size: 14px;}

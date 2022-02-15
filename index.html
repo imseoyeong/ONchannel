@@ -328,5 +328,20 @@
     </div>
   </footer>
 
+  <!-- top바로가기 버튼 -->
+  <button type="button" class="top-shortcuts">
+    <img src="img/arrow_top.png" alt="">
+  </button>
+
+
+  <script>
+	    $(function(){
+	        $('.top-shortcuts').on('click', function(){
+	            $('html, body').animate({
+	                scrollTop: '0'
+	            }, 500)
+	        })
+	    })
+	</script>
 </body>
 </html>
